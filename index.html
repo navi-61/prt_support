@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Supporto Remoto – Stampante Zebra GK420d</title>
+  <title>Supporto Remoto – Stampante Zebra GK420D/T</title>
   <style>
     body { font-family: Arial, sans-serif; padding: 2em; background: #f9f9f9; color: #333; }
     h1 { color: #004080; }
@@ -15,8 +15,7 @@
 </head>
 <body>
 
-<h1>Supporto Remoto – Stampante Zebra GK420d/t</h1>
-<p><strong>Scenario:</strong> operatore del Service Desk IT in azienda con ~3500 postazioni di lavoro. L’utente segnala problemi di stampa su Zebra GK420d/t.</p>
+<h1>Supporto Remoto – Stampante Zebra GK420D/T</h1>
 
 <h2>🛠️ Problemi frequenti segnalati:</h2>
 <ul>
@@ -26,19 +25,19 @@
 </ul>
 
 <details>
-  <summary>✅ 1. Verifiche preliminari (utente in sede)</summary>
+  <summary>✅ 1. Verifiche preliminari (Se Utente in sede collaborativo!)</summary>
   <ul>
-    <li>Controlla presenza rotolo etichette e ribbon (se modello GK420t)</li>
+    <li>Controlla presenza rotolo etichette e ribbon (se modello GK420T)</li>
     <li>Verifica che il coperchio sia ben chiuso</li>
     <li>Controlla connessione USB o di rete al PC</li>
-    <li>Spegni e riaccendi la stampante</li>
+    <li>Spegni e riaccendi la stampante etichette</li>
   </ul>
 </details>
 
 <details>
-  <summary>🖥️ 2. Verifiche da remoto (operatore)</summary>
+  <summary>🖥️ 2. Verifiche da remoto (Operatore SD1)</summary>
   <ul>
-    <li>Apri <code>Stampanti e Scanner</code> e clicca su Zebra GK420d</li>
+    <li>Apri <code>Stampanti e Scanner</code> e clicca su Zebra GK420</li>
     <li>Controlla stato: pronta / offline / errore</li>
     <li>Apri la coda di stampa: elimina eventuali documenti bloccati</li>
     <li>Testa stampa con <code>Proprietà stampante &gt; Stampa pagina di prova</code></li>
@@ -48,10 +47,10 @@
 <details>
   <summary>🔁 3. Esegui la calibrazione</summary>
   <ol>
-    <li>Chiedi all’utente di spegnere la stampante</li>
-    <li>Tieni premuto il pulsante di Feed e accendi la stampante</li>
-    <li>Rilascia il pulsante dopo che lampeggia 2 volte</li>
-    <li>Attendi che la stampante stampi un pattern e si fermi</li>
+    <li>Chiedi all’utente in Sede di spegnere la stampante</li>
+    <li>Tenere premuto il pulsante di Feed e accendere la stampante</li>
+    <li>Rilasciare il pulsante dopo che lampeggia 2 volte</li>
+    <li>Attendere che la stampante stampi un pattern e si fermi</li>
   </ol>
   <p><em>In alternativa, se il driver lo supporta:</em></p>
   <ul>
@@ -60,13 +59,13 @@
 </details>
 
 <details>
-  <summary>⚙️ 4. Impostazioni driver (ZDesigner GK420d)</summary>
+  <summary>⚙️ 4. Impostazioni driver (ZDesigner GK420)</summary>
   <ul>
     <li>Assicurati che la stampante usi il driver ZDesigner</li>
-    <li>Controlla formato etichetta (es. 100 mm x 50 mm)</li>
+    <li>Controlla formato etichetta (per Auorora L 5cm H 3cm)</li>
     <li>Controlla tipo supporto: <code>Etichetta con spazi</code></li>
-    <li>Controlla la modalità di stampa: <code>Termica diretta</code> (o Trasferimento termico se GK420t)</li>
-    <li>Verifica temperatura e velocità di stampa</li>
+    <li>Controlla la modalità di stampa: <code>Termica diretta</code> (o Trasferimento termico se GK420T)</li>
+    <li>Verifica temperatura (scurezza) e velocità di stampa</li>
   </ul>
 </details>
 
@@ -78,10 +77,6 @@
     <li>Chiedi conferma all’utente del risultato</li>
   </ul>
 </details>
-
-<h2>📊 Flowchart di supporto</h2>
-<p>Salva anche il file immagine <code>flowchart_zebra.png</code> nella stessa cartella del file HTML per visualizzarlo correttamente.</p>
-<img src="flowchart_zebra.png" alt="Flowchart supporto Zebra">
 
 </body>
 </html>
